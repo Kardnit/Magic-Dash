@@ -4524,12 +4524,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
       propertyPath: TargetFrameRate
-      value: 60
+      value: 240
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 190956, guid: 6059d977d1f210348bfbe1a82f4f9883,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 878064527}
   m_SourcePrefab: {fileID: 100100000, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
 --- !u!4 &731960558 stripped
 Transform:
@@ -5422,6 +5426,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 40497668}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &878064523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 190956, guid: 6059d977d1f210348bfbe1a82f4f9883,
+    type: 3}
+  m_PrefabInstance: {fileID: 731960557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &878064527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878064523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 614edb33c38bcf949846d5675f29f9fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutomaticallyUnparentOnAwake: 1
+  settingsSo: {fileID: 11400000, guid: 07ea3ff88e1ecb84d91f58aa804badc6, type: 2}
+  AudioSourcePoolSize: 10
+  PoolCanExpand: 1
 --- !u!1001 &883074449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6038,6 +6064,11 @@ PrefabInstance:
     - target: {fileID: 6498953287182686561, guid: 4901fee6c1afe8045b52c571c3e4fa4e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8570283278944050393, guid: 4901fee6c1afe8045b52c571c3e4fa4e,
+        type: 3}
+      propertyPath: Invulnerable
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8732596893859353910, guid: 4901fee6c1afe8045b52c571c3e4fa4e,
@@ -9673,7 +9704,8 @@ PrefabInstance:
       value: -0.23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 122854, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
