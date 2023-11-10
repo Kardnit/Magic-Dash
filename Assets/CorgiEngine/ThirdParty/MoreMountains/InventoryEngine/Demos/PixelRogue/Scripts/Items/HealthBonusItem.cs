@@ -23,8 +23,8 @@ namespace MoreMountains.InventoryEngine
 		{
 			base.Use(playerID);
 			// This is where you would increase your character's health,
-			// with something like : 
-			// Player.Life += HealthValue;
+			// with something like :
+			// else, we give health to the player
 			// of course this all depends on your game codebase.
 			Debug.LogFormat("increase character "+playerID+"'s health by "+HealthBonus);
 			return true;
