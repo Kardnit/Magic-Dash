@@ -14,7 +14,7 @@ namespace MoreMountains.CorgiEngine
 	{
 		[MMInspectorGroup("Projectile Spawn", true, 65)]
 
-		public static int manaCount = 5;
+		public static int manaCount = 999999;
 
 		/// the transform to use as the center reference point of the spawn
 		[Tooltip("the transform to use as the center reference point of the spawn")]
